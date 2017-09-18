@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WereHelper</string>
+    <string name="occupation">Occupation</string>
+    <string name="villager">Villager</string>
+    <string name="evil">Evil</string>
+    <string name="ability">Ability</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+</resources>
