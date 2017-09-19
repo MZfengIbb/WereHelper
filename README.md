@@ -1,7 +1,7 @@
 # WereHelper
 
-Current version: v1.0.0
-SinVoice module: "https://github.com/JesseGu/SinVoice"
+	Current version: v1.0.0
+	SinVoice module: "https://github.com/JesseGu/SinVoice"
 
 
 # Android Studio 2.3.3
