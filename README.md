@@ -1,11 +1,12 @@
 # WereHelper
 
+	Introduction: "Werewolves of miller's hollow" is a popular board game. The role of this app assistant is to simplify the distribution of identity in the game process.
 	Current version: v1.0.0
 	SinVoice module: "https://github.com/JesseGu/SinVoice"
 
 
 # Android Studio 2.3.3
-##/// app/build.gradle
+##/// app/build.gradle	
 	// Top-level build file where you can add configuration options common to all sub-projects/modules.
 	
 	buildscript {
@@ -33,7 +34,7 @@
 	    delete rootProject.buildDir
 	}
 
-##/// build.gradle
+##/// build.gradle	
 	apply plugin: 'com.android.application'
 	
 	android {
