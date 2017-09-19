@@ -6,32 +6,32 @@
 
 # Android Studio 2.3.3
 ##/// app/build.gradle
-		// Top-level build file where you can add configuration options common to all sub-projects/modules.
-
-		buildscript {
-		    repositories {
-		        jcenter()
-		        maven {
-		            url 'https://dl.google.com/dl/android/maven2'
-		        }
-		    }
-		    dependencies {
-		        classpath 'com.android.tools.build:gradle:2.3.3'
+	// Top-level build file where you can add configuration options common to all sub-projects/modules.
+	
+	buildscript {
+	    repositories {
+	        jcenter()
+	        maven {
+	            url 'https://dl.google.com/dl/android/maven2'
+	        }
+	    }
+	    dependencies {
+	        classpath 'com.android.tools.build:gradle:2.3.3'
 		
-		        // NOTE: Do not place your application dependencies here; they belong
-		        // in the individual module build.gradle files
-		    }
-		}
+	        // NOTE: Do not place your application dependencies here; they belong
+	        // in the individual module build.gradle files
+	    }
+	}
 
-		allprojects {
-		    repositories {
-		        jcenter()
-		    }
-		}
-
-		task clean(type: Delete) {
-		    delete rootProject.buildDir
-		}
+	allprojects {
+	    repositories {
+	        jcenter()
+	    }
+	}
+	
+	task clean(type: Delete) {
+	    delete rootProject.buildDir
+	}
 
 ##/// build.gradle
 apply plugin: 'com.android.application'
