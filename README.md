@@ -6,7 +6,7 @@
 
 
 # Android Studio 2.3.3
-##/// app/build.gradle	
+## /// app/build.gradle	
 	// Top-level build file where you can add configuration options common to all sub-projects/modules.
 	
 	buildscript {
@@ -34,7 +34,7 @@
 	    delete rootProject.buildDir
 	}
 
-##/// build.gradle	
+## /// build.gradle	
 	apply plugin: 'com.android.application'
 	
 	android {
